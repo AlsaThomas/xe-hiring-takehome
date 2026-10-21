@@ -496,3 +496,21 @@ new file: NOTES.md
 new file: tests/api/alerts.spec.ts
 new file: tests/api/rates.spec.ts
 new file: tests/ui/rate-board.spec.ts
+
+16. Deliberately Out of Scope
+
+Given the approximately two-hour timebox, I deliberately did not attempt exhaustive coverage.
+
+The following areas were left out of the initial scope:
+
+- Full accessibility testing
+- Full cross-browser execution
+- Performance/load testing
+- Authentication/authorisation testing
+- Exhaustive API boundary and schema testing
+- Responsive/mobile UI coverage
+- Extensive network-interruption scenarios
+
+These were deprioritised in favour of validating the core exchange-rate and alert functionality, negative API scenarios, business-rule behaviour, and key UI flows.
+
+With additional time, I would prioritise API boundary/contract coverage and failure/recovery scenarios first, followed by accessibility and cross-browser coverage.
