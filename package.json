@@ -1,0 +1,17 @@
+{
+  "name": "xe-hiring-takehome",
+  "version": "1.0.0",
+  "description": "A small app that displays live exchange rates, backed by the Xe Currency Data API. Your take-home brief explains what to build on top of it.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
